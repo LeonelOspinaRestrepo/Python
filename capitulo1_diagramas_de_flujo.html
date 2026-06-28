@@ -25,20 +25,30 @@
       <div class="row">
          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
            <div style="box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; text-align: justify; font-size: 20px;">
-            <BR> <h2 class="alert-success" style="text-align: center;">PENSAR COMO PROGRAMADOR</h2> <BR>
-              Antes de adentrarse en el aprendizaje de un lenguaje de programación, es fundamental comprender que el desarrollo de software se basa, principalmente, en la capacidad de analizar problemas y plantear soluciones de manera estructurada. Diversos autores coinciden en que la programación no consiste únicamente en escribir código, sino en desarrollar habilidades de pensamiento lógico y computacional <strong style="font-size: 14px; background-color: #FF0; color: #ffffff;">(Wing, 2006)</strong>. <BR></BR>
-            El pensamiento computacional permite descomponer problemas complejos en partes más pequeñas y manejables, facilitando su resolución a través de pasos ordenados y precisos. En este sentido, los algoritmos se convierten en una herramienta esencial, ya que representan la base de cualquier programa y permiten describir soluciones de forma clara y sistemática <strong style="font-size: 14px; background-color: #FF0; color: #ffffff;">(Knuth, 1997)</strong> . <BR></BR>
-            Asimismo, el uso de representaciones como los diagramas de flujo contribuye a visualizar procesos y mejorar la comprensión de la lógica subyacente en la resolución de problemas, especialmente en etapas iniciales de aprendizaje <STRONg style="font-size: 14px; background-color: #FF0; color: #ffffff;">(Joyanes Aguilar, 2008)</STRONg>. <BR></BR>
-            Este capítulo tiene como objetivo introducir al lector en estos fundamentos, proporcionando las bases necesarias para desarrollar una mentalidad orientada a la resolución de problemas. Aprender a pensar como programador implica adoptar un enfoque disciplinado, preciso y estructurado, habilidades que serán esenciales a lo largo de todo el proceso de aprendizaje. <BR></BR>
-            De esta manera, antes de escribir las primeras líneas de código, el lector comprenderá que la programación comienza con una idea clara, organizada y correctamente planteada. <STRONG style="font-size: 14px; background-color: #FF0; color: #ffffff;">(Knuth, D. E. (1997). The Art of Computer Programming. Addison-Wesley; Wing, J. M. (2006). Computational Thinking. Communications of the ACM, 49(3), 33-35; Joyanes Aguilar, L. (2008). Fundamentos de programación: algoritmos, estructuras de datos y objetos. McGraw-Hill)</STRONG>. <BR></BR>
-            <div style="text-align: center;">
-             <iframe width="560" height="315" src="https://www.youtube.com/embed/5W3Mct7hGaU?si=AYjvV45DgONyw52c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div><BR></BR>
+            <BR> <h2 class="alert-success" style="text-align: center;">DIAGRAMAS DE FLUJO</h2> <BR>
+                <div style="text-align: center;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/60zGhIFhIRY?si=0IuHPB9-DrOziAgq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div><BR></BR>
+             Los diagramas de flujo constituyen una herramienta fundamental en la representación gráfica de algoritmos, ya que permiten visualizar de manera clara y ordenada la secuencia de pasos necesarios para la resolución de un problema. Su uso facilita la comprensión de procesos lógicos, especialmente en etapas iniciales del aprendizaje de la programación, al proporcionar una visión estructurada de las decisiones y acciones involucradas <strong style="font-size: 14px; background-color: #FF0; color: #ffffff;">(Joyanes Aguilar, 2008)</strong> . <BR></BR>
+            Un diagrama de flujo está compuesto por una serie de símbolos estandarizados, cada uno con un significado específico. Estos símbolos se conectan mediante flechas que indican la dirección del flujo del proceso, permitiendo seguir paso a paso la ejecución del algoritmo. Entre los símbolos más utilizados se encuentran: <BR></BR>
+             	<strong>Óvalo (Inicio/Fin)</strong>: Representa el comienzo o final de un algoritmo. <br>
+ 	            <strong>Rectángulo (Proceso)</strong>: Indica una operación o instrucción a ejecutar. <br>
+ 	            <strong>Paralelogramo (Entrada/Salida)</strong>: Se utiliza para la lectura o presentación de datos. <br>
+ 	            <strong>Rombo (Decisión)</strong>: Representa una condición que puede tener dos o más resultados (por ejemplo, verdadero o falso). <br>
+ 	            <strong>Flechas:</strong> Indican la dirección del flujo del algoritmo. <BR></BR>
+            El uso adecuado de estos elementos permite construir representaciones claras y comprensibles, lo que contribuye a la identificación de errores y a la optimización de los procesos antes de su implementación en un lenguaje de programación. <BR></BR>
+           Desde una perspectiva metodológica, los diagramas de flujo permiten al programador analizar la lógica de un algoritmo sin preocuparse inicialmente por la sintaxis de un lenguaje específico. Esto refuerza el desarrollo del pensamiento computacional, ya que se centra en la estructura del problema y no en su implementación técnica <strong style="font-size: 14px; background-color: #FF0; color: #ffffff;">(Wing, 2006)</strong> . <BR></BR>
+           A continuación, se presenta un ejemplo aplicado: <BR></BR>
+           Problema: Determinar si un número es par o impar. <BR></BR>
+           El algoritmo inicia solicitando un número al usuario. Posteriormente, se evalúa si el número es divisible entre dos. Si la condición se cumple, se muestra el mensaje “Número par”; en caso contrario, se muestra “Número impar”. Finalmente, el proceso concluye. <BR></BR>
+           <div style="text-align: center;"><img src="img/algoritmos/pareimpar.png" alt="" class="img-fluid"></div> <BR>
+           Este tipo de representación permite comprender de forma intuitiva la lógica del problema, facilitando su posterior traducción a pseudocódigo o a un lenguaje de programación como Python. <BR></BR>
+           En conclusión, los diagramas de flujo son una herramienta esencial en la etapa de diseño de algoritmos, ya que promueven la claridad, la organización y la correcta estructuración de soluciones computacionales <STRONg style="font-size: 14px; background-color: #FF0; color: #ffffff;">(Wing, J. M. (2006). Computational Thinking. Communications of the ACM, 49(3), 33–35; Joyanes Aguilar, L. (2008). Fundamentos de programación: algoritmos, estructuras de datos y objetos. McGraw-Hill)</STRONg> . <BR></BR>
              <div>
               <a href="https://leonelospinarestrepo.github.io/Python/" class="btn btn-dark btn-block">INICIO DE LA PUBLICACIÒN</a>
               <a href="capitulo_que_es_un_algoritmo.html" class="btn btn-dark btn-block">¿QUÈ ES UN ALGORITMO?</a>
               <a href="capitulo1_resolucion_problemas_paso_a_paso.html" class="btn btn-dark btn-block">RESOLUCIÒN DE PROBLEMAS</a>
-              <a href="capitulo1_diagramas_de_flujo.html" class="btn btn-dark btn-block">DIAGRAMAS DE FLUJO</a>
+              <a href="capitulo1_pensar_como_programador.html" class="btn btn-dark btn-block">REGRESAR AL CAPÌTULO 1</a>
               <a href="#" class="btn btn-dark btn-block">CONCLUSIÒN DEL CAPITULO 1</a>
              
              </div><BR></BR>
